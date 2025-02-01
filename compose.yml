@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    ports:
+      - "4200:4200"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /apps
+
+# run with `docker compose up --build web`
