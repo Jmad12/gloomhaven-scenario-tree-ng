@@ -223,6 +223,19 @@ export class TreeComponent implements OnChanges {
         }
       }
     }
+    if (!scenario35Complete) {
+      if (this.cy.nodes('#21').data('status') !== 'complete') {
+        this.cy.nodes('#21').outgoers('[type = "requiredby"][target = "31"]')
+          .css({
+            visibility: "hidden",
+          })
+          .targets()
+          .css({
+            "background-color": "#000000",
+            "border-width": "0px",
+          });
+      }
+    }
     if (!scenario23Complete && !scenario43Complete) {
       if (this.cy.nodes('#26').data('status') === 'attempted' ||
         this.cy.nodes('#26').data('status') === 'incomplete') {
