@@ -937,7 +937,7 @@
         {
             "data": {
                 "id": "50",
-                "name": "#50 Ghost Forrest",
+                "name": "#50 Ghost Fortress",
                 "pages": [65, 66],
                 "status": "hidden",
                 "notes": "",
@@ -1862,7 +1862,7 @@
         {
             "data": {
                 "id": "104",
-                "name": "#104 A Gaping Would",
+                "name": "#104 A Gaping Wound",
                 "pages": ["FC1-13", "FC2-19", "FC2-26", "FC2-28", "FC2-33"],
                 "status": "hidden",
                 "notes": "",
