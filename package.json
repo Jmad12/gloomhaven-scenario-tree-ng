@@ -5,7 +5,7 @@
   "author": "David Mungin",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host '0.0.0.0'",
     "build": "ng build --prod --output-path docs --base-href gloomhaven-scenario-tree-ng",
     "build-netlify": "ng build --prod --output-path netlify",
     "test": "ng test",
